@@ -1,6 +1,5 @@
 name: dbt PR Review
-run: |
-       cortex --print "Use the dbt-review agent to review the changes in this PR" > review.md
+
 on:
   pull_request:
     paths:
